@@ -1,0 +1,9 @@
+
+API Doumnetation:
+
+https://wf-name-pronounce.azurewebsites.net/swagger-ui.html#!/
+
+Access the API in Browser:
+http://localhost:8080/api/name/pronunciation?name=Jose&selectLanguage=SPANISH
+
+The MP3 File wil get Downloaded.Play back the File to here the name pronountiation
