@@ -76,6 +76,8 @@ public class Trying_Different_Languages {
 				AdvancedPlayer player = new AdvancedPlayer(synthesizer.getMP3Data(text));
 				player.play();
 				
+				
+				
 				System.out.println("Successfully got back synthesizer data");
 				
 			} catch (IOException | JavaLayerException e) {
@@ -92,6 +94,7 @@ public class Trying_Different_Languages {
 		thread.start();
 		
 	}
+	
 	
 	
 }
