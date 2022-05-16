@@ -33,6 +33,7 @@ public class SwaggerConfig {
 				.termsOfServiceUrl("")
 				.contact("").license("")
 				.licenseUrl("").version("1.0").build();
+		
 	}
 
 }

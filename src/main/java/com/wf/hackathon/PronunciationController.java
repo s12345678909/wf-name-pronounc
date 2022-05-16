@@ -15,9 +15,10 @@ public class PronunciationController {
 	private static final String POLISH="pl";
 	
 	@RequestMapping(method = RequestMethod.GET, value = "/api/name/pronunciation")
-	public String namePronunciation(@RequestParam String language, @RequestParam String name) {
-		Trying_Different_Languages tl= new Trying_Different_Languages(language);
+	public String namePronunciation(@RequestParam String name,@RequestParam Test selectLanguage) {
+		Trying_Different_Languages tl= new Trying_Different_Languages(selectLanguage.name());
 		
 		return "Success";
 	}
 }
+

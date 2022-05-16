@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: SANJIV
+Build-Jdk: 11.0.9.1
+Implementation-Title: name-pronounciation
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.wf
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/name-pronounci
+ ation/
+Created-By: Maven Integration for Eclipse
+

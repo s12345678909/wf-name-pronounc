@@ -34,25 +34,28 @@ public class Trying_Different_Languages {
 		
 		switch(language) {
 		  case "ENGLISH":
-			  speak("Sanjiv");
+			  speak("Jose");
 		    break;
 		  case "HINDI":
-		  speak("संजीव"); 
+		  speak("जोस"); 
 		    break;
 		  case "RUSSIAN":
-			  speak("Санджив"); //russian
+			  speak("Хосе"); //russian
 		    break;
-		  case "CHINEESE":
-			  speak("桑吉夫");//chineese 
+		  case "CHINESE":
+			  speak("Hé sāi");//chinese 
 		    break;
 		  case "ARABIC":
-			  speak("سانجيف");//arabic
+			  speak("جوزيه");//arabic
 			  break;
-		  case "POLISH":
-			  speak("Sandżiw");//polish
+		  case "SPANISH":
+			  speak("José");
+			  break;
+		  case "FRENCH":
+			  speak("José");
 			  break;
 		  default:
-			  speak("Sanjiv");
+			  speak("Jose");
 		} 
 			
 	}
